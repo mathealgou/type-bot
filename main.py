@@ -15,7 +15,7 @@ def main():
     text = text.replace('\n', ' ')
     
     pyautogui.click(500, 500)
-    pyautogui.typewrite(text)
+    pyautogui.write(text, interval=0)
     
 if __name__ == '__main__':
 	main()
